@@ -1,0 +1,340 @@
+:root {
+  --primary-color: #185ee0;
+  --secondary-color: #e6eef9;
+}
+
+
+#oceanwp-tp-opd-settings .ocean-ecommerce-tp-block-description.warning,
+#oceanwp-tp-opd-pixel-tracker-settings .ocean-ecommerce-tp-block-description.warning {
+  color: #ff0000;
+  margin-top: 15px;
+}
+
+#oceanwp-tp-opd-settings .oceanwp-tp-wide-block .oceanwp-tp-block-title:not(.main-heading) {
+  font-size: 18px;
+}
+
+.ocean-tp-tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+
+}
+
+.tabs-ocean-tp-tabs-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+
+}
+
+.ocean-tp-tabs-container .tabs {
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.ocean-tp-tabs-container .tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.ocean-tp-tabs-container .tab-scroll {
+  display: flex;
+  margin: 2em 0;
+}
+
+.ocean-tp-tabs-container .scroll-btn {
+  cursor: pointer;
+  background-color: #ddd;
+  border: none;
+  padding: 10px;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: #000;
+  transition: background-color .15s ease-in;
+}
+
+.ocean-tp-tabs-container .tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  min-width: 170px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+  position: relative;
+  z-index: 2;
+}
+
+.ocean-tp-tabs-container .tab-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: #000;
+  transition: background-color 0.15s ease-in;
+}
+
+.ocean-tp-tabs-container input[type="radio"] {
+  display: none;
+}
+
+.ocean-tp-tabs-container input[type="radio"]:checked+label {
+  color: var(--primary-color);
+}
+
+.ocean-tp-tabs-container input[type="radio"]:checked+label>.notification {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.ocean-tp-tabs-container .glider {
+  position: absolute;
+  bottom: 0;
+  height: 54px;
+  width: 170px;
+  background-color: var(--secondary-color);
+  z-index: 1;
+  border-radius: 99px;
+  transition: transform 0.25s ease-out;
+  transform: translateX(0);
+}
+
+/* Corrected selectors for moving the glider */
+.ocean-tp-tabs-container input[id="radio-1"]:checked~.glider {
+  transform: translateX(0%);
+}
+
+.ocean-tp-tabs-container input[id="radio-2"]:checked~.glider {
+  transform: translateX(100%);
+}
+
+.ocean-tp-tabs-container input[id="radio-3"]:checked~.glider {
+  transform: translateX(200%);
+}
+
+.ocean-tp-tabs-container input[id="radio-4"]:checked~.glider {
+  transform: translateX(300%);
+}
+
+.ocean-tp-tabs-container input[id="radio-5"]:checked~.glider {
+  transform: translateX(400%);
+}
+
+.ocean-tp-tabs-container .ocean-tp-tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+
+  background-color: #f4f4f4;
+  box-shadow: 2px 4px 6px -4px rgb(0 0 0 / 50%);
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 15px 15px 15px 15px;
+
+  align-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 850px;
+}
+
+.ocean-tp-tabs-container .ocean-tp-tab-content.active {
+  display: flex;
+}
+
+/* Display content for the active tab */
+.ocean-tp-tabs-container input[id="radio-1"]:checked~.ocean-tp-tab-content#content-1,
+.ocean-tp-tabs-container input[id="radio-2"]:checked~.ocean-tp-tab-content#content-2,
+.ocean-tp-tabs-container input[id="radio-3"]:checked~.ocean-tp-tab-content#content-3,
+.ocean-tp-tabs-container input[id="radio-4"]:checked~.ocean-tp-tab-content#content-4,
+.ocean-tp-tabs-container input[id="radio-5"]:checked~.ocean-tp-tab-content#content-5 {
+  display: block;
+}
+
+
+/** Controls Layout **/
+
+.ocean-tp-tabs-container .control-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ocean-tp-tabs-container .control-label {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.ocean-tp-tabs-container .control-description {
+  margin-left: 10px;
+  text-align: right;
+  font-weight: 700;
+}
+
+.ocean-tp-tabs-container .text-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+/** Switchers **/
+
+.ocean-tp-tabs-container .toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  margin: 8px;
+}
+
+
+.ocean-tp-tabs-container .toggle-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.ocean-tp-tabs-container .toggle-label {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+
+.ocean-tp-tabs-container .toggle-label:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+
+.ocean-tp-tabs-container .toggle-input:checked+.toggle-label {
+  background-color: #2196F3;
+}
+
+.ocean-tp-tabs-container .toggle-input:checked+.toggle-label:before {
+  transform: translateX(16px);
+}
+
+
+@media (max-width: 700px) {
+  .ocean-tp-tabs-container .tabs {
+    flex-direction: column;
+    transform-origin: left;
+    justify-content: left;
+  }
+
+  .ocean-tp-tabs-container .tab {
+    min-width: 150px;
+    font-size: 0.9rem;
+  }
+
+  .ocean-tp-tabs-container .tab-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .ocean-tp-tabs-container .glider {
+    width: 150px;
+  }
+
+  .ocean-tp-tabs-container .glider {
+    display: none;
+  }
+
+  /* Adjust the checked state transformations for the glider position */
+  .ocean-tp-tabs-container input[id="radio-1"]:checked~.glider {
+    transform: scale(0.75) translateX(0%);
+  }
+
+  .ocean-tp-tabs-container input[id="radio-2"]:checked~.glider {
+    transform: scale(0.75) translateX(150px);
+  }
+
+  .ocean-tp-tabs-container input[id="radio-3"]:checked~.glider {
+    transform: scale(0.75) translateX(300px);
+  }
+
+  .ocean-tp-tabs-container input[id="radio-4"]:checked~.glider {
+    transform: scale(0.75) translateX(450px);
+  }
+
+  .ocean-tp-tabs-container input[id="radio-5"]:checked~.glider {
+    transform: scale(0.75) translateX(600px);
+  }
+
+  .ocean-tp-tabs-container .scroll-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 15px;
+    margin-left: 0.5rem;
+  }
+
+  .ocean-tp-tabs-container .ocean-tp-tab-content {
+
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .ocean-tp-tabs-container input[type="radio"]:checked+label {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+
+  .tabs-ocean-tp-tabs-container {
+
+    margin-bottom: 2em;
+  }
+
+  .ocean-tp-tabs-container .ocean-tp-tab-content {
+    flex-direction: column;
+    min-width: auto;
+    padding: 20px;
+  }
+
+  .ocean-tp-tabs-container .control-label {
+
+    max-width: 75%;
+  }
+}

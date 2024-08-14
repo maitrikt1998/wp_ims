@@ -1,0 +1,139 @@
+/* Popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999999;
+    display: none;
+}
+
+.popup-open .popup-overlay {
+    display: block;
+}
+
+
+/* Enhanced Close button */
+.popup-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 9999;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.popup-close-button svg {
+    fill: #333;
+    width: 60%;
+    height: 60%;
+}
+
+.popup-close-button:hover svg {
+    fill: #555;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 99999999999998;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup .wp-block-cover {
+    font-size: 14px !important;
+}
+
+.popup-content {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .popup.gutenberg .popup-content {
+    overflow: hidden;
+} */
+
+
+/* Positioning Popups */
+.popup.popup-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup.popup-top-right {
+    top: 0;
+    right: 0;
+    transform: none;
+}
+
+.popup.popup-top-left {
+    top: 0;
+    left: 0;
+    transform: none;
+}
+
+.popup.popup-bottom-right {
+    bottom: 0;
+    right: 0;
+    transform: none;
+}
+
+.popup.popup-bottom-left {
+    bottom: 0;
+    left: 0;
+    transform: none;
+}
+
+.popup.popup-left-center {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.popup.popup-right-center {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.popup.popup-top-center {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup.popup-bottom-center {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup.gutenberg :where(.wp-block-columns.has-background) {
+    padding: 1.25em 2.375em;
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+    .popup {
+        max-width: 100%;
+    }
+}

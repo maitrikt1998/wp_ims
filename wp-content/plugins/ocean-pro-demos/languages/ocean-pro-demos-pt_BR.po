@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Pro Demos\n"
+"POT-Creation-Date: 2023-10-17 20:09-0300\n"
+"PO-Revision-Date: 2023-12-05 01:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ocean-pro-demos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: api-images.php:83 classes/integration.php:49 classes/integration.php:50
+#: classes/integration.php:74
+msgid "Ocean Images"
+msgstr "Imagens OceanWP"
+
+#: api-images.php:91
+msgid "Downloading image..."
+msgstr "Baixando imagem..."
+
+#: api-images.php:92
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: api-images.php:93
+msgid "Image was added to media library"
+msgstr "A imagem foi adicionada à biblioteca de mídia"
+
+#: api-images.php:94
+msgid "Error"
+msgstr "Erro"
+
+#: api-images.php:95
+msgid "Load more"
+msgstr "Carregar mais"
+
+#: api-images.php:101
+msgid ""
+"There was no response while attempting to the download image to your server. "
+"Check your server permission and max file upload size or try again"
+msgstr ""
+"Não houve resposta ao tentar baixar a imagem para o seu servidor. Verifique "
+"as permissões do seu servidor e o tamanho máximo de envio de arquivo, ou "
+"tente novamente"
+
+#: classes/integration.php:80
+#: includes/themepanel/views/panes/ocean-images-settings.php:11
+msgid "Enable Ocean Images Module"
+msgstr "Ativar o módulo Imagens OceanWP"
+
+#: classes/integration.php:85 classes/integration.php:119
+#: classes/integration.php:168
+#: includes/themepanel/views/panes/ocean-images-settings.php:16
+#: includes/themepanel/views/panes/ocean-images-settings.php:50
+#: includes/themepanel/views/panes/ocean-images-settings.php:99
+msgid "Disable"
+msgstr "Desativar"
+
+#: classes/integration.php:88 classes/integration.php:122
+#: classes/integration.php:171
+#: includes/themepanel/views/panes/ocean-images-settings.php:19
+#: includes/themepanel/views/panes/ocean-images-settings.php:53
+#: includes/themepanel/views/panes/ocean-images-settings.php:102
+msgid "Enable"
+msgstr "Ativar"
+
+#: classes/integration.php:95
+#: includes/themepanel/views/panes/ocean-images-settings.php:26
+msgid "Server"
+msgstr "Servidor"
+
+#: classes/integration.php:100
+#: includes/themepanel/views/panes/ocean-images-settings.php:31
+msgid "Main"
+msgstr "Principal"
+
+#: classes/integration.php:103
+#: includes/themepanel/views/panes/ocean-images-settings.php:34
+msgid "Alternative"
+msgstr "Alternativo"
+
+#: classes/integration.php:114
+#: includes/themepanel/views/panes/ocean-images-settings.php:45
+msgid "Enable Flaticon"
+msgstr "Ativar o Flaticon"
+
+#: classes/integration.php:129
+#: includes/themepanel/views/panes/ocean-images-settings.php:60
+msgid "Flaticon Image Width"
+msgstr "Largura da imagem Flaticon"
+
+#: classes/integration.php:134
+#: includes/themepanel/views/panes/ocean-images-settings.php:65
+msgid "16px"
+msgstr "16px"
+
+#: classes/integration.php:137
+#: includes/themepanel/views/panes/ocean-images-settings.php:68
+msgid "24px"
+msgstr "24px"
+
+#: classes/integration.php:140
+#: includes/themepanel/views/panes/ocean-images-settings.php:71
+msgid "32px"
+msgstr "32px"
+
+#: classes/integration.php:143
+#: includes/themepanel/views/panes/ocean-images-settings.php:74
+msgid "64px"
+msgstr "64px"
+
+#: classes/integration.php:146
+#: includes/themepanel/views/panes/ocean-images-settings.php:77
+msgid "128px"
+msgstr "128px"
+
+#: classes/integration.php:149
+#: includes/themepanel/views/panes/ocean-images-settings.php:80
+msgid "256px"
+msgstr "256px"
+
+#: classes/integration.php:152
+#: includes/themepanel/views/panes/ocean-images-settings.php:83
+msgid "512px"
+msgstr "512px"
+
+#: classes/integration.php:163
+#: includes/themepanel/views/panes/ocean-images-settings.php:94
+msgid "Enable Freepik"
+msgstr "Ativar o Freepik"
+
+#: classes/integration.php:178
+#: includes/themepanel/views/panes/ocean-images-settings.php:109
+msgid "Freepik Image Width"
+msgstr "Largura da imagem Freepik"
+
+#: classes/integration.php:183
+#: includes/themepanel/views/panes/ocean-images-settings.php:114
+msgid "Normal"
+msgstr "Normal"
+
+#: classes/integration.php:186
+#: includes/themepanel/views/panes/ocean-images-settings.php:117
+msgid "HD"
+msgstr "HD"
+
+#: classes/routes.php:133
+msgid "Image successfully uploaded to the media library!"
+msgstr "Imagem enviada para a biblioteca de mídia!"
+
+#: classes/routes.php:150
+msgid ""
+"There was an error getting image details from the request, please try again."
+msgstr ""
+"Houve um erro ao obter os detalhes da imagem da solicitação, tente novamente."
+
+#: classes/routes.php:207
+msgid "You do not have sufficient access to upload images with API Images."
+msgstr ""
+"Você não tem acesso suficiente para enviar imagens com a API de imagens."
+
+#: elementor-library/classes/class-lib-mngr.php:96
+msgid "No Templates Found"
+msgstr "Nenhum modelo encontrado"
+
+#: elementor-library/classes/class-lib-mngr.php:97
+msgid "Try a different category or sync for new templates."
+msgstr "Tente uma categoria diferente ou sincronize para obter novos modelos."
+
+#: elementor-library/classes/class-lib-mngr.php:98
+msgid "No Results Found"
+msgstr "Nenhum resultado encontrado"
+
+#: elementor-library/classes/class-lib-mngr.php:99
+msgid ""
+"Please make sure your search is spelled correctly or try different words."
+msgstr ""
+"Certifique-se de que a sua pesquisa está escrita corretamente ou tente "
+"palavras diferentes."
+
+#: elementor-library/classes/class-lib-mngr.php:141
+msgid "Post not found."
+msgstr "Post não encontrado."
+
+#: elementor-library/classes/class-lib-mngr.php:164
+msgid "Post not found"
+msgstr "Post não encontrado"
+
+#: elementor-library/classes/class-lib-mngr.php:171
+msgid "Template ID missing"
+msgstr "ID do modelo ausente"
+
+#: elementor-library/classes/class-lib-src.php:38
+msgid "Ocean Library"
+msgstr "Biblioteca OceanWP"
+
+#: elementor-library/classes/class-lib-src.php:274
+msgid "Template does not have any content"
+msgstr "O modelo não tem nenhum conteúdo"
+
+#: elementor-library/templates.php:17
+msgid "Back to Library"
+msgstr "Voltar à biblioteca"
+
+#: elementor-library/templates.php:28 elementor-library/templates.php:29
+msgid "Desktop view"
+msgstr "Visualização de desktop"
+
+#: elementor-library/templates.php:32 elementor-library/templates.php:33
+msgid "Tab view"
+msgstr "Visualização de abas"
+
+#: elementor-library/templates.php:36 elementor-library/templates.php:37
+msgid "Mobile view"
+msgstr "Visualização de dispositivos móveis"
+
+#: elementor-library/templates.php:43 elementor-library/templates.php:44
+msgid "Sync Library"
+msgstr "Sincronizar biblioteca"
+
+#: elementor-library/templates.php:61
+msgid "Insert"
+msgstr "Inserir"
+
+#: elementor-library/templates.php:68
+msgid "Get Plus"
+msgstr "Obter mais"
+
+#: elementor-library/templates.php:82
+msgid "Loading"
+msgstr "Carregando"
+
+#: elementor-library/templates.php:87
+msgid "You can use it to filter through categories faster or easier"
+msgstr ""
+"Você pode usá-lo para filtrar as categorias mais rapidamente ou de forma "
+"mais fácil"
+
+#: elementor-library/templates.php:94
+msgid "Filter"
+msgstr "Filtrar"
+
+#: elementor-library/templates.php:108
+msgid "Search Templates:"
+msgstr "Pesquisar modelos:"
+
+#: elementor-library/templates.php:109
+msgid "Search"
+msgstr "Pesquisar"
+
+#: elementor-library/templates.php:126
+msgid "Plus"
+msgstr "Mais"
+
+#: elementor-library/templates.php:133
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: elementor-library/templates.php:145
+msgid "Want to learn more about the Ocean Elementor Library?"
+msgstr "Quer aprender mais sobre a biblioteca Ocean Elementor?"
+
+#: elementor-library/templates.php:146
+msgid "Click here"
+msgstr "Clique aqui"
+
+#: ocean-pro-demos.php:182 ocean-pro-demos.php:191
+msgid "Cheatin&#8217; huh?"
+msgstr "Trapaceando, hein?"
+
+#: ocean-pro-demos.php:223
+msgid "Elementor Library"
+msgstr "Biblioteca Elementor"
+
+#. Plugin Name of the plugin/theme
+msgid "Ocean Pro Demos"
+msgstr "Ocean Pro Demos"
+
+#. Description of the plugin/theme
+msgid ""
+"A premium plugin with powerful and complete options for web designers: "
+"import OceanWP Full website templates with all pages and styling; Elementor "
+"Sections Library templates; and import images and icons from Freepik."
+msgstr ""
+"Um plugin premium com opções poderosas e completas para web designers: "
+"importe modelos de sites completos do OceanWP com todas as páginas e "
+"estilos; modelos de biblioteca de seções do Elementor; e importe imagens e "
+"ícones do Freepik."
+
+#. Author of the plugin/theme
+msgid "OceanWP"
+msgstr "OceanWP"
+
+#. Author URI of the plugin/theme
+msgid "https://oceanwp.org/"
+msgstr "https://oceanwp.org/"

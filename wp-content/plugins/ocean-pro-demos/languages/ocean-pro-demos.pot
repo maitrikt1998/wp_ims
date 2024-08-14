@@ -1,0 +1,313 @@
+# Copyright (C) 2024 OceanWP
+# This file is distributed under the same license as the Ocean Pro Demos plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Pro Demos 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ocean-pro-demos\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-22T07:30:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: ocean-pro-demos\n"
+
+#. Plugin Name of the plugin
+#: C:/laragon/www/rc-owp/wp-content/plugins/ocean-pro-demos/ocean-pro-demos.php
+msgid "Ocean Pro Demos"
+msgstr ""
+
+#. Description of the plugin
+#: C:/laragon/www/rc-owp/wp-content/plugins/ocean-pro-demos/ocean-pro-demos.php
+msgid "A premium plugin with powerful and complete options for web designers: import OceanWP Full website templates with all pages and styling; Elementor Sections Library templates; import images and icons from Freepik; build Popups; create Custom Post Types; add Google tag, Facebook pixel and other tracking options."
+msgstr ""
+
+#. Author of the plugin
+#: C:/laragon/www/rc-owp/wp-content/plugins/ocean-pro-demos/ocean-pro-demos.php
+msgid "OceanWP"
+msgstr ""
+
+#. Author URI of the plugin
+#: C:/laragon/www/rc-owp/wp-content/plugins/ocean-pro-demos/ocean-pro-demos.php
+msgid "https://oceanwp.org/"
+msgstr ""
+
+#: api-images.php:84
+#: classes/integration.php:49
+#: classes/integration.php:50
+#: classes/integration.php:74
+msgid "Ocean Images"
+msgstr ""
+
+#: api-images.php:92
+msgid "Downloading image..."
+msgstr ""
+
+#: api-images.php:93
+msgid "Loading..."
+msgstr ""
+
+#: api-images.php:94
+msgid "Image was added to media library"
+msgstr ""
+
+#: api-images.php:95
+msgid "Error"
+msgstr ""
+
+#: api-images.php:96
+msgid "Load more"
+msgstr ""
+
+#: api-images.php:102
+msgid "There was no response while attempting to the download image to your server. Check your server permission and max file upload size or try again"
+msgstr ""
+
+#: classes/integration.php:80
+#: includes/themepanel/views/panes/ocean-images-settings.php:11
+msgid "Enable Ocean Images Module"
+msgstr ""
+
+#: classes/integration.php:85
+#: classes/integration.php:119
+#: classes/integration.php:168
+#: includes/themepanel/views/panes/ocean-images-settings.php:16
+#: includes/themepanel/views/panes/ocean-images-settings.php:50
+#: includes/themepanel/views/panes/ocean-images-settings.php:99
+msgid "Disable"
+msgstr ""
+
+#: classes/integration.php:88
+#: classes/integration.php:122
+#: classes/integration.php:171
+#: includes/themepanel/views/panes/ocean-images-settings.php:19
+#: includes/themepanel/views/panes/ocean-images-settings.php:53
+#: includes/themepanel/views/panes/ocean-images-settings.php:102
+msgid "Enable"
+msgstr ""
+
+#: classes/integration.php:95
+#: includes/themepanel/views/panes/ocean-images-settings.php:26
+msgid "Server"
+msgstr ""
+
+#: classes/integration.php:100
+#: includes/themepanel/views/panes/ocean-images-settings.php:31
+msgid "Main"
+msgstr ""
+
+#: classes/integration.php:103
+#: includes/themepanel/views/panes/ocean-images-settings.php:34
+msgid "Alternative"
+msgstr ""
+
+#: classes/integration.php:114
+#: includes/themepanel/views/panes/ocean-images-settings.php:45
+msgid "Enable Flaticon"
+msgstr ""
+
+#: classes/integration.php:129
+#: includes/themepanel/views/panes/ocean-images-settings.php:60
+msgid "Flaticon Image Width"
+msgstr ""
+
+#: classes/integration.php:134
+#: includes/themepanel/views/panes/ocean-images-settings.php:65
+msgid "16px"
+msgstr ""
+
+#: classes/integration.php:137
+#: includes/themepanel/views/panes/ocean-images-settings.php:68
+msgid "24px"
+msgstr ""
+
+#: classes/integration.php:140
+#: includes/themepanel/views/panes/ocean-images-settings.php:71
+msgid "32px"
+msgstr ""
+
+#: classes/integration.php:143
+#: includes/themepanel/views/panes/ocean-images-settings.php:74
+msgid "64px"
+msgstr ""
+
+#: classes/integration.php:146
+#: includes/themepanel/views/panes/ocean-images-settings.php:77
+msgid "128px"
+msgstr ""
+
+#: classes/integration.php:149
+#: includes/themepanel/views/panes/ocean-images-settings.php:80
+msgid "256px"
+msgstr ""
+
+#: classes/integration.php:152
+#: includes/themepanel/views/panes/ocean-images-settings.php:83
+msgid "512px"
+msgstr ""
+
+#: classes/integration.php:163
+#: includes/themepanel/views/panes/ocean-images-settings.php:94
+msgid "Enable Freepik"
+msgstr ""
+
+#: classes/integration.php:178
+#: includes/themepanel/views/panes/ocean-images-settings.php:109
+msgid "Freepik Image Width"
+msgstr ""
+
+#: classes/integration.php:183
+#: includes/themepanel/views/panes/ocean-images-settings.php:114
+msgid "Normal"
+msgstr ""
+
+#: classes/integration.php:186
+#: includes/themepanel/views/panes/ocean-images-settings.php:117
+msgid "HD"
+msgstr ""
+
+#: classes/routes.php:133
+msgid "Image successfully uploaded to the media library!"
+msgstr ""
+
+#: classes/routes.php:150
+msgid "There was an error getting image details from the request, please try again."
+msgstr ""
+
+#: classes/routes.php:207
+msgid "You do not have sufficient access to upload images with API Images."
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:96
+msgid "No Templates Found"
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:97
+msgid "Try a different category or sync for new templates."
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:98
+msgid "No Results Found"
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:99
+msgid "Please make sure your search is spelled correctly or try different words."
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:141
+msgid "Post not found."
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:164
+msgid "Post not found"
+msgstr ""
+
+#: elementor-library/classes/class-lib-mngr.php:171
+msgid "Template ID missing"
+msgstr ""
+
+#: elementor-library/classes/class-lib-src.php:38
+msgid "Ocean Library"
+msgstr ""
+
+#: elementor-library/classes/class-lib-src.php:274
+msgid "Template does not have any content"
+msgstr ""
+
+#: elementor-library/templates.php:17
+msgid "Back to Library"
+msgstr ""
+
+#: elementor-library/templates.php:28
+#: elementor-library/templates.php:29
+msgid "Desktop view"
+msgstr ""
+
+#: elementor-library/templates.php:32
+#: elementor-library/templates.php:33
+msgid "Tab view"
+msgstr ""
+
+#: elementor-library/templates.php:36
+#: elementor-library/templates.php:37
+msgid "Mobile view"
+msgstr ""
+
+#: elementor-library/templates.php:43
+#: elementor-library/templates.php:44
+msgid "Sync Library"
+msgstr ""
+
+#: elementor-library/templates.php:61
+msgid "Insert"
+msgstr ""
+
+#: elementor-library/templates.php:68
+msgid "Get Plus"
+msgstr ""
+
+#: elementor-library/templates.php:82
+msgid "Loading"
+msgstr ""
+
+#: elementor-library/templates.php:87
+msgid "You can use it to filter through categories faster or easier"
+msgstr ""
+
+#: elementor-library/templates.php:94
+msgid "Filter"
+msgstr ""
+
+#: elementor-library/templates.php:108
+msgid "Search Templates:"
+msgstr ""
+
+#: elementor-library/templates.php:109
+msgid "Search"
+msgstr ""
+
+#: elementor-library/templates.php:126
+msgid "Plus"
+msgstr ""
+
+#: elementor-library/templates.php:133
+msgid "Preview"
+msgstr ""
+
+#: elementor-library/templates.php:145
+msgid "Want to learn more about the Ocean Elementor Library?"
+msgstr ""
+
+#: elementor-library/templates.php:146
+msgid "Click here"
+msgstr ""
+
+#: includes/themepanel/theme-panel.php:75
+msgid "Misc Pro Features"
+msgstr ""
+
+#: includes/themepanel/theme-panel.php:82
+msgid "Pixel Tracker"
+msgstr ""
+
+#: includes/themepanel/views/panes/opd-blocks-settings.php:23
+msgid "Enable Popup Builder"
+msgstr ""
+
+#: includes/themepanel/views/panes/opd-blocks-settings.php:38
+msgid "Hi there! We noticed you have the Ocean eComm Treasure Box installed and active. To simplify things for you and keep your user-experience at the highest level, we are encouraging you to access this feature through the Ocean eComm Treasure Box dashboard. Find more information about "
+msgstr ""
+
+#: includes/themepanel/views/panes/opd-blocks-settings.php:38
+msgid "how to use the Popup Builder within our documentation."
+msgstr ""
+
+#: includes/themepanel/views/panes/opd-blocks-settings.php:49
+msgid "Enable CPT Manager"
+msgstr ""
+
+#: includes/themepanel/views/panes/opd-pixel-tracker-settings.php:95
+msgid "Hi there! We noticed you have enabled Pixel Tracker in the Ocean eComm Treasure Box plugin. To simplify things for you and keep your user-experience at the highest level, we are encouraging you to access this feature through the Ocean eComm Treasure Box dashboard. Find more information about "
+msgstr ""
